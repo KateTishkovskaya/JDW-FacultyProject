@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    min-height: 10vh;
+    max-width: 100vw;
+    background: linear-gradient(to bottom left, rgba(119, 128, 227, 0.75), rgba(232, 158, 228, 0.75));
+    display: flex;
+    align-items: center;
+}
+
+.group{
+    width: 100%;
+    position: absolute;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo{
+    font-size: 17px;
+    text-transform: lowercase;
+    font-weight: bold;
+    padding-left: 15px;
+
+}
+
+.nav{
+    padding-right: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+.nav_link{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+.nav_link:hover{
+    color:  rgb(119, 128, 227);
+}
+
+
+.sign{
+    padding-right: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+.sign_link{
+    text-decoration: none;
+    color: black;
+}
+.sign_link:hover{
+    color: rgb(119, 128, 227);
+}
+
+.intro{
+    position: relative;
+
+    min-height: 90vh;
+    max-width: 100vw;
+    background: url("view/assets/image/main/komp.jpg");
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.intro::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255,255,255,0.5);
+}
+.intro_inner{
+    position: relative;
+
+    width: 95%;
+    position: absolute;
+    align-items: center;
+}
+.intro_p{
+    width: 100%;
+    padding: 5% 2.5% 5% 2.5%;
+    text-align: center;
+}
+.p_text{
+    font-size: 80px;
+}
+.p_small_text{
+    font-size: 20px;
+    padding-top: 20px;
+}

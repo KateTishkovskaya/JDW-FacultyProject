@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    max-width: 100vw;
+    background: linear-gradient(to bottom left, rgba(119, 128, 227, 0.75), rgba(232, 158, 228, 0.75));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    width: 25%;
+    height: 100%;
+    padding: 20px 10px;
+    background-color: rgba(255, 251, 255, 0.99);
+    border-radius: 12px;
+    border:none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    font-size: 30px;
+}
+
+.input_form input{
+    border: 1.5px solid;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 15px;
+    height: 30px;
+    padding-left: 2px;
+
+}
+.input_form{
+    margin-bottom: 10px;
+    width: 70%;
+    height: auto;
+
+    position: relative;
+}
+.input_form input:hover{
+    border-color: rgb(119, 128, 227);
+}
+.password-control {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.password-input{
+    padding-right: 30px;
+}
+
+.btn{
+    width: 30%;
+    height: auto;
+    font-size: 20px;
+    background-color: rgba(119, 128, 227, 0.75);
+    border:none;
+    border-radius: 10px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color:  rgb(119, 128, 227);
+}
+
+.btn_reg{
+    width: 50%;
+    height: auto;
+    font-size: 20px;
+    background-color: rgba(119, 128, 227, 0.75);
+    border:none;
+    border-radius: 10px;
+}
